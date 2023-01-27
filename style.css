@@ -1,0 +1,121 @@
+*{
+margin: 0; 
+padding: 0; 
+font-family: sans-serif; 
+}
+    .hero{
+         
+        
+    }
+
+    nav{
+        display: flex; 
+        width: 84%; 
+        margin: auto; 
+        padding: 20px 0; 
+        align-items: center; 
+        justify-content: space-between;
+    } 
+
+    nav ul li{
+        display: inline-block; 
+        list-style: none; 
+        margin: 10px 20px; 
+
+    } 
+    nav ul li a{
+        text-decoration: none; 
+        color: white; 
+        font-weight: bold;
+    } 
+
+    nav ul li a:hover{
+        color: yellow;
+    } 
+    .detel{
+  text-align: center; 
+  margin-top: 7%;
+          
+
+        
+ 
+    }
+    .detel h1{
+      text-align: center; 
+      font-size: 50px; 
+      color: white; 
+      
+    } 
+    span{
+        color: yellow; 
+
+    } 
+    .detel p{
+        color: #555;  
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 22px; 
+        text-align: center; 
+        background-color: yellow; 
+        padding: 10px 10px; 
+        text-decoration: none; 
+        font-weight: bold; 
+        color: black; 
+        display: inline-block; 
+        margin: 30px 0; 
+        border-radius: 5px; 
+        border-right: 0.15em solid #333; /* add a border to the right of the text */
+  white-space: pre; /* prevent the text from wrapping to the next line */
+  overflow: hidden; /* hide any overflow */
+  animation: typing 2s steps(30, end), blink-caret 1.5s step-end infinite; /* animate the typing effect */ 
+  max-width: 100%;
+}
+
+/* animate the typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* animate the caret (the vertical line at the end of the text) */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #333 }
+}
+    
+    .detel a{
+        background-color: yellow; 
+        padding: 10px 10px; 
+        text-decoration: none; 
+        font-weight: bold; 
+        color: black; 
+        display: inline-block; 
+        margin: 30px 0; 
+        border-radius: 5px; 
+    } 
+    .images{
+        width: 45%; 
+        height: 80%; 
+        position: absolute; 
+        
+        bottom: 100; 
+        right: 450px;
+    } 
+    body {
+        background-color: black;
+        animation: colorchange 4s linear 1;
+      }
+      
+      @keyframes colorchange {
+        0% {
+          background-color: black;
+        }
+        50% {
+          background-color: white;
+        }
+        100% {
+          background-color: black;
+        }
+      } 
+     
+ 
+      
